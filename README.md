@@ -17,3 +17,27 @@ A machine learning project analyzing customer personality data for a retail comp
 - Scikit-learn
 
 ## 📁 Project Structure
+├── marketing_campaign.csv
+├── Finalprojectmarketing.ipynb
+└── README.md
+
+## 🔍 Key Findings
+### Customer Segments
+| Cluster | Type | Description |
+|---------|------|-------------|
+| 0 | Low-Value | Low income, low spending, inactive |
+| 1 | **High-Value** ⭐ | High income, high spending |
+| 2 | Regular | Medium income, medium spending |
+| 3 | At-Risk | Low spending, recent activity |
+
+### Model Performance
+| Model | Accuracy | F1 Score |
+|-------|----------|----------|
+| Logistic Regression | 86.61% | 0.40 |
+| Decision Tree | 79.69% | 0.33 |
+| **Random Forest** ✅ | **86.16%** | **0.42** |
+
+## 💡 Recommendations
+1. Focus premium offers on **High-Value customers** (Cluster 1)
+2. Re-engage inactive customers **(Cluster 0)** with targeted discounts
+3. Prioritize **previous campaign acceptors** for future campaigns
