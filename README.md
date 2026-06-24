@@ -19,9 +19,7 @@ A machine learning project analyzing customer personality data for a retail comp
 ## 📁 Project Structure
 ├── marketing_campaign.csv
 
-
 ├── Finalprojectmarketing.ipynb
-
 
 └── README.md
 
